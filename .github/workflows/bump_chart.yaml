@@ -3,7 +3,7 @@ name: Bump version
 on:
   push:
     branches:
-      - master
+      - other
 env:
   HELM_EXPERIMENTAL_OCI: 1
 
