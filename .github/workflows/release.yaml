@@ -14,3 +14,5 @@ jobs:
         with:
           release-type: node # Multiple release types are supported
           default-branch: master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
