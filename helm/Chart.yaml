@@ -3,8 +3,4 @@ name: ts-server-boilerplate
 description: A Helm chart for ts-server-boilerplate service
 type: application
 version: 1.0.4
-<<<<<<< HEAD
 appVersion: 1.0.4
-=======
-appVersion: 1.0.3
->>>>>>> d4999c2512c95ebe91cc1bb38bd3774c55ed681c

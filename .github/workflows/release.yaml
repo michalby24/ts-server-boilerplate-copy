@@ -13,6 +13,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v4
         with:
           release-type: node
+          token: ${{ secrets.MY_RELEASE_PLEASE_TOKEN }}
           # The short ref name of the branch or tag that triggered
           #  the workflow run. For example, `main` or `1.x`
           target-branch: ${{ github.ref_name }}
