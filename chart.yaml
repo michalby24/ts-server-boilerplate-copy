@@ -1,0 +1,4 @@
+apiVersion: v2
+name: michal-test-chart
+description: A Helm chart for Kubernetes
+version: 4.5.7
